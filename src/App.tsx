@@ -1,4 +1,3 @@
-import React from 'react';
 import BurgerConstructor from './Components/BurgerConstructor';
 import './App.css'
 

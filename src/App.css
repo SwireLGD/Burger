@@ -15,7 +15,23 @@
     border-radius: 20px;
     font-size: 1.2rem;
     align-items: start;
-    padding-left: 20px;
+    padding: 20px;
+}
+
+.IngredientImg {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.IngredientBtn {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .Title {

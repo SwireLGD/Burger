@@ -11,8 +11,8 @@ interface IngredientBtnProps {
 
 const IngredientBtn: React.FC<IngredientBtnProps> = ({ ingredient, onClick }) => {
   return (
-    <button onClick={onClick}>
-      <img src={ingredient.image} />
+    <button onClick={onClick} className='IngredientBtn'>
+      <img src={ingredient.image} className='IngredientImg' />
       {ingredient.name}
     </button>
   );
